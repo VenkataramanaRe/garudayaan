@@ -12,7 +12,7 @@ const About = () => {
       />
       <h1 className="absolute  w-full object-scale-down flex items-center justify-center  text-white font-bold text-4xl md:text-7xl pl-5 pr-5 pt-1 pb-1" >About Us</h1>
       </div>
-      <div className="pt-5 pb-10  pl-10 pr-10">
+      <div className="pt-5 pb-10 pl-3 sm:pl-10 pr-3 sm:pr-10">
       <div>
         <h1 className="mt-10 font-bold text-lg">
           ABOUT US content for logistics company website (SYNOPSIS)
@@ -133,14 +133,14 @@ const About = () => {
         </p>
       </div>
       <div className="mt-10">
-        <div className="shadow-xl flex flex-col items-center p-10 rounded-2xl bg-[#192a53] text-white">
+        <div className="shadow-xl flex flex-col items-center p-3 sm:p-10 rounded-2xl bg-[#192a53] text-white">
           <h1 className="font-bold text-lg">Vision : </h1>
           <p className="pt-3 font-medium text-base">
             To be the leading provider of comprehensive logistics solutions,
             known for our innovation, efficiency, and customer satisfaction.
           </p>
         </div>
-        <div className="shadow-2xl flex flex-col items-center p-10 rounded-t-2xl rounded-b-xl bg-Triadic text-white">
+        <div className="shadow-2xl flex flex-col items-center p-3 sm:p-10 rounded-t-2xl rounded-b-xl bg-Triadic text-white">
           <h1 className="font-bold text-lg mt-10">Mission : </h1>
           <p className="pt-3 font-medium text-base">
             Our mission is to simplify the logistics process for our clients by

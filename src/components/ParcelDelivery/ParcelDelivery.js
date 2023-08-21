@@ -2,7 +2,7 @@ import React from "react";
 
 const ParcelDelivery = () => {
   return (
-    <div className="pt-20 pl-10 pr-10 pb-10 space-y-2 font-roboto">
+    <div className="pt-20 pl-3 sm:pl-10 pr-3 sm:pr-10 pb-10 space-y-2 font-roboto">
         <div className="pt-5">
       <img
         className="w-full object-scale-down"

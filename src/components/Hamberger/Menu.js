@@ -27,7 +27,7 @@ const Menu = ({setMenu,menu}) => {
             <MdOutlineClose size={30} />
           </div>
           <div className="navbar-start w-full">
-          <Link to="/" className="flex  pr-5 logo ">
+          <Link to="/" className="flex  pr-5 logo " onClick={() => setMenu(!menu)}>
         <div className="nav_logo bg-red">
           <div className="border-[2px] border-black rounded-full  ">
             <img

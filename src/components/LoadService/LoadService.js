@@ -3,14 +3,14 @@ import React from "react";
 const LoadService = () => {
   return (
     <>
-    <div className="pt-[90px] pl-10 pr-10 ">
+    <div className="pt-[90px] pl-3 sm:pl-10 pr-3 sm:pr-10 ">
     <img
           className="w-full object-scale-down"
           src={require("../Image/Full Load service.png")}
           alt=""
         />
     </div>
-    <div className="pl-10 pr-10 pb-10 font-roboto">
+    <div className="pl-3 sm:pl-10 pr-3 sm:pr-10 pb-10 font-roboto">
       <h1 className="pt-10 font-bold text-xl text-center underline">Full Container Load (FCL) Services</h1>
       <p className="pt-5 font-medium text-base">
         Garudayaan Logistics offers a wide range of Full Container Load (FCL)

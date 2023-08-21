@@ -2,7 +2,7 @@ import React from "react";
 
 const Disclaimer = () => {
   return (
-    <div className="pt-[100px] pl-10 pr-10 pb-10 font-roboto">
+    <div className="pt-[100px] pl-3 sm:pl-10 pr-3 sm:pr-10 pb-10 font-roboto">
       <h1 className="font-bold text-lg text-center underline">
         Driver Terms & Condition
       </h1>

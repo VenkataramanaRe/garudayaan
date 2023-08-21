@@ -9,7 +9,7 @@ import {AiOutlineClose} from "react-icons/ai"
 const Navbar = () => {
   const [menu, setMenu] = useState(false);
   return (
-    <div className="flex items-center justify-between  pl-10 pr-10 shadow-2xl font-montserrat font-medium fixed w-full z-20 bg-[#192a53] h-20 space-x-5">
+    <div className="flex items-center justify-between sm:pl-10 pr-3 sm:pr-10 shadow-2xl font-montserrat font-medium fixed w-full z-20 bg-[#192a53] h-20">
       <Link to="/" className="flex items-center justify-center  pr-5 logo ">
         <div className="nav_logo bg-red">
           <div className="border-[2px] border-black rounded-full  ">
@@ -79,7 +79,7 @@ const Navbar = () => {
           </ul>
         </div>
       </div>
-      <div className="block md:hidden absolute right-10" onClick={() => setMenu(!menu)}>
+      <div className="block md:hidden absolute right-3 sm:right-10" onClick={() => setMenu(!menu)}>
         {menu ?
          <AiOutlineClose color="white" size={40} /> :<LuMenu color="white" size={40} /> 
         }

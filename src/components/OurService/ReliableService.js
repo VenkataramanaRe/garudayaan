@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 const ReliableService = () => {
   return (
-    <div className="w-full mt-10 flex flex-col lg:flex-row space-x-4 ">
+    <div className="w-full mt-10 flex flex-col lg:flex-row space-x-4">
       <div className="w-full lg:w-1/2">
         <img
           className="w-full  object-contain rounded"

@@ -2,13 +2,13 @@ import React from "react";
 
 const TermsConditions = () => {
   return (
-    <div className="pt-20 pl-10 pr-10 pb-10">
+    <div className="pt-20 pl-5 sm:pl-10 pr-3 sm:pr-10 pb-10 font-roboto">
       <h1 className="text-center font-bold text-xl pt-10 underline">
         Terms &amp; Condition
       </h1>
       
       <div className="space-y-2">
-        <h1 className="font-medium text-base mt-2">OVERVIEW</h1>
+        <h1 className="font-semibold text-base mt-10">OVERVIEW</h1>
         <p className="font-normal text-base">
           Welcome to Garudayaan Logistics. If you continue to browse and use our
           app/website you are agreeing to comply with and be bound by the
@@ -26,7 +26,7 @@ const TermsConditions = () => {
       </div>
 
       <div className="space-y-2">
-        <h1 className="font-medium text-base mt-2">DEFINITIONS</h1>
+        <h1 className=" font-semibold sm:font-medium text-lg sm:text-base mt-2">DEFINITIONS</h1>
         <p className="font-normal text-base">
           The following definitions apply to the terms and conditions set out
           below that govern this contract of Carriage between you and us:
@@ -103,7 +103,7 @@ const TermsConditions = () => {
         </p>
       </div>
       <div className="mt-2 space-y-2">
-        <h1 className="font-medium text-base">USER(S) ELIGIBILITY</h1>
+        <h1 className=" font-semibold sm:font-medium text-lg sm:text-base">USER(S) ELIGIBILITY</h1>
         <p className="font-normal text-base">
           User(s) means any individual or business entity/ organization that
           legally operates in India or in other country, uses and has the right
@@ -123,7 +123,7 @@ const TermsConditions = () => {
         </p>
       </div>
       <div className="space-y-2 mt-2">
-        <h1 className="font-medium text-base">USER(S) AGREEMENT</h1>
+        <h1 className=" font-semibold sm:font-medium text-lg sm:text-base">USER(S) AGREEMENT</h1>
         <p className="font-normal text-base">
           This agreement applies to user(s) if user(s) are visitors, registered
           - free or paid user(s) who access the web site for any purpose. It
@@ -142,7 +142,7 @@ const TermsConditions = () => {
         </p>
       </div>
       <div  className="space-y-2 mt-2">
-        <h1 className="font-medium text-base">AMENDMENT TO USER(S) AGREEMENT</h1>
+        <h1 className=" font-semibold sm:font-medium text-lg sm:text-base">AMENDMENT TO USER(S) AGREEMENT</h1>
         <p className="font-normal text-base">
           Garudayaan Logistics may change, modify, amend, or update this
           agreement from time to time with or without any prior notification to
@@ -157,7 +157,7 @@ const TermsConditions = () => {
       </div>
 
       <div  className="space-y-2 mt-2">
-        <h1 className="font-medium text-base">INTELLECTUAL PROPERTY RIGHTS</h1>
+        <h1 className=" font-semibold sm:font-medium text-lg sm:text-base">INTELLECTUAL PROPERTY RIGHTS</h1>
         <p className="font-normal text-base">
           Garudayaan Logistics is the sole owner or lawful licensee of all the
           rights to the web site and its content. Web site content means its
@@ -207,7 +207,7 @@ const TermsConditions = () => {
         </p>
       </div>
       <div  className="space-y-2 mt-2">
-        <h1 className="font-medium text-base">Trademark</h1>
+        <h1 className=" font-semibold sm:font-medium text-lg sm:text-base">Trademark</h1>
         <p className="font-normal text-base">
           All related icons and logos are registered trademarks or trademarks or
           service marks of Garudayaan Logistics in various jurisdictions and are
@@ -217,7 +217,7 @@ const TermsConditions = () => {
         </p>
       </div>
       <div  className="space-y-2 mt-2">
-        <h1 className="font-medium text-base">Copyright</h1>
+        <h1 className=" font-semibold sm:font-medium text-lg sm:text-base">Copyright</h1>
         <p className="font-normal text-base">
           All content on this web site is the copyright of Garudayaan Logistics
           except the third party content and link to third party web sites on
@@ -251,7 +251,7 @@ const TermsConditions = () => {
       </div>
 
       <div  className="space-y-2 mt-2">
-        <h1 className="font-medium text-base">LINKS TO THIRD PARTY SITES</h1>
+        <h1 className=" font-semibold sm:font-medium text-lg sm:text-base">LINKS TO THIRD PARTY SITES</h1>
         <p className="font-normal text-base">
           Links to third party sites are provided by web site as a convenience
           to user(s) and Garudayaan Logistics has no control over such sites i.e
@@ -277,7 +277,7 @@ const TermsConditions = () => {
       </div>
 
       <div  className="space-y-2 mt-2">
-        <h1 className="font-medium text-base">TERMINATION</h1>
+        <h1 className=" font-semibold sm:font-medium text-lg sm:text-base">TERMINATION</h1>
         <p className="font-normal text-base">
           Most content and some of the features on the web site are made
           available to visitors free of charge. However, Garudayaan Logistics
@@ -294,7 +294,7 @@ const TermsConditions = () => {
         </p>
       </div>
       <div  className="space-y-2 mt-2">
-        <h1 className="font-medium text-base">TERMS &amp; CONDITIONS FOR USE OF OUR SERVICE</h1>
+        <h1 className=" font-semibold sm:font-medium text-lg sm:text-base">TERMS &amp; CONDITIONS FOR USE OF OUR SERVICE</h1>
         <p className="font-normal text-base">
           The following Terms &amp; Conditions shall apply to customers
           utilising the Services offered by the Company for the hiring of
@@ -421,14 +421,14 @@ const TermsConditions = () => {
           Law.
         </p>
         <p className="font-normal text-base">
-          <span className="font-medium text-base">Cancellation Policy</span>:
+          <span className=" font-semibold sm:font-medium text-lg sm:text-base">Cancellation Policy</span>:
           All cancellations made 5 minutes after driver allocation will incur a
           cancellation fee of INR. 50/- (Indian Rupees Fifty only). Cancelling
           four bookings in a day after driver allocation will temporarily
           suspend your account for 24 hours. Figures are subject to change.{" "}
         </p>
         <p className="font-normal text-base">
-          <span className="font-medium text-base">Toll Charges</span>: In case
+          <span className=" font-semibold sm:font-medium text-lg sm:text-base">Toll Charges</span>: In case
           of a toll on your trip, return toll fare will be charged.{" "}
         </p>
       </div>
@@ -483,7 +483,7 @@ const TermsConditions = () => {
         </p>
       </div>
       <div  className="space-y-2 mt-2">
-        <h1 className="font-medium text-base">CONFIDENTIALITY</h1>
+        <h1 className=" font-semibold sm:font-medium text-lg sm:text-base">CONFIDENTIALITY</h1>
         <p className="font-normal text-base">
           User(s) shall not disclose any information received under the contract
           of service with Garudayaan Logistics to any third party. Access to any
@@ -495,7 +495,7 @@ const TermsConditions = () => {
         </p>
       </div>
       <div  className="space-y-2 mt-2">
-        <h1 className="font-medium text-base">DISCLAIMER</h1>
+        <h1 className=" font-semibold sm:font-medium text-lg sm:text-base">DISCLAIMER</h1>
         <p className="font-normal text-base">
           All vehicles registered with the Company are continuously tracked
           using mobile technology for security reasons only. It is hereby made
@@ -515,7 +515,7 @@ const TermsConditions = () => {
         </p>
       </div>
       <div  className="space-y-2 mt-2">
-        <h1 className="font-medium text-base">ACE PLUS TERMS AND CONDITIONS</h1>
+        <h1 className=" font-semibold sm:font-medium text-lg sm:text-base">ACE PLUS TERMS AND CONDITIONS</h1>
         <p className="font-normal text-base">Only ground floor to ground floor loading / unloading is allowed</p>
         <p className="font-normal text-base">
           Distance between Garudayaan Logistics truck and loading/unloading
@@ -539,20 +539,20 @@ const TermsConditions = () => {
       </div>
 
       <div  className="space-y-2 mt-2">
-        <h1 className="font-medium text-base">INSURANCE INFO</h1>
+        <h1 className=" font-semibold sm:font-medium text-lg sm:text-base">INSURANCE INFO</h1>
         <p className="font-normal text-base">Please find Insurance related terms and conditions</p>
         <p className="font-normal text-base">here</p>
       </div>
       <div  className="space-y-2 mt-2">
-        <h1 className="font-medium text-base">GARUDA YAAN LOGISTICS WALLET INFO</h1>
+        <h1 className=" font-semibold sm:font-medium text-lg sm:text-base">GARUDA YAAN LOGISTICS WALLET INFO</h1>
         <p className="font-normal text-base">
           Please find Garudayaan Logistics wallet related FAQs and terms &amp;
           conditions
         </p>
-        <h1 className="font-medium text-base">here</h1>
+        <h1 className=" font-semibold sm:font-medium text-lg sm:text-base">here</h1>
       </div>
       <div  className="space-y-2 mt-2">
-        <h1 className="font-medium text-base">YOUR ACCEPTANCE OF OUR TERMS AND CONDITIONS</h1>
+        <h1 className=" font-semibold sm:font-medium text-lg sm:text-base">YOUR ACCEPTANCE OF OUR TERMS AND CONDITIONS</h1>
         <p className="font-normal text-base">
           By giving us your consignment you accept our terms and conditions set
           out in the consignment note and/or the contract of carriage and/or the
@@ -570,8 +570,8 @@ const TermsConditions = () => {
         </p>
       </div>
       <div  className="space-y-2 mt-2">
-        <h1 className="font-medium text-base">YOUR OBLIGATIONS</h1>
-        <h1 className="font-medium text-base">You warrant, undertake and guarantee to us:</h1>
+        <h1 className=" font-semibold sm:font-medium text-lg sm:text-base">YOUR OBLIGATIONS</h1>
+        <h1 className=" font-semibold sm:font-medium text-lg sm:text-base">You warrant, undertake and guarantee to us:</h1>
         <p className="font-normal text-base">
           The contents of the consignment (including but not limited to weight
           and number of items) have been properly described on our consignment
@@ -684,8 +684,8 @@ const TermsConditions = () => {
         </p>
       </div>
       <div  className="space-y-2 mt-2">
-        <h1 className="font-medium text-base">The Services meeting the customer&#39;s requirements.</h1>
-        <h1 className="font-medium text-base">
+        <h1 className=" font-semibold sm:font-medium text-lg sm:text-base">The Services meeting the customer&#39;s requirements.</h1>
+        <h1 className=" font-semibold sm:font-medium text-lg sm:text-base">
           The Services will be uninterrupted, timely, secure, or error-free.
         </h1>
         <p className="font-normal text-base">
@@ -747,8 +747,8 @@ const TermsConditions = () => {
         </p>
       </div>
       <div  className="space-y-2 mt-2">
-        <h1 className="font-medium text-base">DANGEROUS GOODS / SECURITY</h1>
-        <h1 className="font-medium text-base">Dangerous Goods</h1>
+        <h1 className=" font-semibold sm:font-medium text-lg sm:text-base">DANGEROUS GOODS / SECURITY</h1>
+        <h1 className=" font-semibold sm:font-medium text-lg sm:text-base">Dangerous Goods</h1>
         <p className="font-normal text-base">
           We do not carry, nor perform other Services regarding, goods which are
           in our sole opinion Dangerous Goods including, but not limited to,
@@ -784,7 +784,7 @@ const TermsConditions = () => {
         </p>
       </div>
       <div  className="space-y-2 mt-2">
-        <h1 className="font-medium text-base">REJECTED CONSIGNMENTS</h1>
+        <h1 className=" font-semibold sm:font-medium text-lg sm:text-base">REJECTED CONSIGNMENTS</h1>
         <p className="font-normal text-base">
           If the receiver refuses to accept delivery, we will try to contact you
           and agree to the next action if it is appropriate. You agree to pay us
@@ -801,7 +801,7 @@ const TermsConditions = () => {
       </div>
 
       <div  className="space-y-2 mt-2">
-        <h1 className="font-medium text-base">CLAIMS BROUGHT BY THIRD PARTIES</h1>
+        <h1 className=" font-semibold sm:font-medium text-lg sm:text-base">CLAIMS BROUGHT BY THIRD PARTIES</h1>
         <p className="font-normal text-base">
           You undertake to us that you shall not permit any other person who has
           an interest in the consignment to bring a claim or action against us
@@ -820,15 +820,15 @@ const TermsConditions = () => {
         </p>
       </div>
       <div  className="space-y-2 mt-2">
-        <h1 className="font-medium text-base">GARUDA YAAN LOGISTICS REFERRAL PROGRAM</h1>
+        <h1 className=" font-semibold sm:font-medium text-lg sm:text-base">GARUDA YAAN LOGISTICS REFERRAL PROGRAM</h1>
         <p className="font-normal text-base">Please find all referral related terms and conditions</p>
-        <h1 className="font-medium text-base">Here</h1>
+        <h1 className=" font-semibold sm:font-medium text-lg sm:text-base">Here</h1>
       </div>
       <div  className="space-y-2 mt-2">
-        <h1 className="font-medium text-base">CASHBACK SCHEMES</h1>
+        <h1 className=" font-semibold sm:font-medium text-lg sm:text-base">CASHBACK SCHEMES</h1>
         <p className="font-normal text-base">Please find all cash back related terms and conditions</p>
-        <h1 className="font-medium text-base">here</h1>
-        <h1 className="font-medium text-base">GST</h1>
+        <h1 className=" font-semibold sm:font-medium text-lg sm:text-base">here</h1>
+        <h1 className=" font-semibold sm:font-medium text-lg sm:text-base">GST</h1>
         <p className="font-normal text-base">GST, as applicable, will be levied on the Invoice.</p>
         <p className="font-normal text-base">
           Any information shall be considered only prospectively. Under no
@@ -842,7 +842,7 @@ const TermsConditions = () => {
       </div>
 
       <div  className="space-y-2 mt-2">
-        <h1 className="font-medium text-base">GOVERNING LAW AND JURISDICTION</h1>
+        <h1 className=" font-semibold sm:font-medium text-lg sm:text-base">GOVERNING LAW AND JURISDICTION</h1>
         <p className="font-normal text-base">
           These Terms of Service shall be governed by and construed in
           accordance with the laws of the India, without regard to the
@@ -853,7 +853,7 @@ const TermsConditions = () => {
         </p>
       </div>
       <div  className="space-y-2 mt-2">
-        <h1 className="font-medium text-base">DISCLAIMER</h1>
+        <h1 className=" font-semibold sm:font-medium text-lg sm:text-base">DISCLAIMER</h1>
         <p className="font-normal text-base">
           The information contained in this website and Garudayaan Logistics App
           is for general information purposes only. The information is provided

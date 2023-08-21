@@ -11,7 +11,7 @@ const Footer = () => {
   const years = date.getFullYear();
   return (
     <div className="bg-[#192a53] font-roboto">
-      <div className="flex flex-col space-y-3 md:space-y-0 md:flex-row items-center justify-between bg-Triadic p-10  ">
+      <div className="flex flex-col space-y-3 md:space-y-0 md:flex-row items-center justify-between bg-Triadic p-5 sm:p-10  ">
         <h1 className="font-semibold text-center  text-xl text-white">
           Looking for the best transport services?
         </h1>
@@ -22,7 +22,7 @@ const Footer = () => {
           Book your shipment
         </Link>
       </div>
-      <div className="flex  justify-between md:space-x-3 w-full flex-wrap text-white p-10">
+      <div className="flex  justify-between md:space-x-3 w-full flex-wrap text-white p-5 sm:p-10">
         <div className="mt-10  md:mt-0 w-full md:w-3/12 lg:w-2/12 ">
           <h1 className="font-semibold text-xl capitalize mb-5">company</h1>
           <Link className="flex items-center " to="/">
@@ -116,8 +116,8 @@ const Footer = () => {
         </div>
       </div>
       <div className="bg-white flex items-center justify-center pt-8 pb-8 font-roboto">
-        <h1 className="font-semibold text-base">
-          Copyright @ {years} Logistics.All Rights Reserved.
+        <h1 className="font-medium sm:font-semibold text-sm sm:text-base">
+          Copyright @ {years} garudayaan.com.All Rights Reserved.
         </h1>
       </div>
     </div>
